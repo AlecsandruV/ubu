@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 def to_seconds(hours, minutes, seconds):
-    return hours*3600+minutes*60+to_seconds
+        return hours*3600+minutes*60+seconds
 
-    print("Welcome to this time converter")
+print("Welcome to this time converter")
 
-    cont = "y"
-    while(cont.lower() == "y"):
+cont = "y"
+while(cont.lower() == "y"):
         hours = int(input("Enter the number of hours: "))
         minutes = int(input("Enter the number of minutes: "))
         seconds = int(input("Enter the number of seconds: "))
@@ -15,5 +15,4 @@ def to_seconds(hours, minutes, seconds):
         print()
         cont = input ("Do you whant to do another conversion? [y to continue] ")
 
-        print("Good bye! ")
-        
+print("Good bye! ")
